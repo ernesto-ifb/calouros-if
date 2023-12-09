@@ -1,0 +1,516 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que a altura da página seja pelo menos a altura da janela de visualização (viewport) */
+    font-family: Nunito, sans-serif; /* Fonte principal */
+    position: relative;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #2B2B2B;
+    margin-top: auto; /* Empurra o rodapé para a parte inferior do contêiner flexível */
+    align-items: left;
+    display: flex;
+    color: #fff;
+    /* vertical-align: middle; */
+}
+.imagi{
+    width: 7em;
+    height: 4em;
+    margin-top: 1.5em;
+ 
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #353535; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 8px; /* Preenchimento do cabeçalho */
+    text-align: center; /* Centralizar texto no cabeçalho */
+    position: relative; /* Necessário para posicionar as imagens de forma absoluta em relação a este bloco */
+    display: flex; /* Ativa o modelo flexível para o cabeçalho */
+    justify-content: space-between; /* Espaço entre os elementos filhos */
+    align-items: center; /* Centraliza verticalmente os elementos filhos */
+    height: 100px;
+}
+
+/* Estilos para o logo */
+.logocalouros {
+    position: absolute; /* Posiciona a imagem de forma absoluta em relação ao bloco pai (header) */
+    top: 3px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    width: 100px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos para a segunda imagem (logo if) */
+.if {
+    position: absolute; /* Posiciona a imagem de forma absoluta em relação ao bloco pai (header) */
+    top: 3px; /* Distância do topo */
+    right: 10px; /* Distância da direita */
+    width: 300px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.bem-vindos{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+    
+}
+.verde{
+     font-size: 3.5em; /*Tamanho do texto grande */
+    color: #36963F; /* Cor verde */
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
+}
+.vermelho{
+    font-size: 3.5em; /* Tamanho do texto grande */
+    color: #C8102E; /* Cor verde */
+    /* margin-bottom: 0.5em; */
+    margin-top: 0.2em;
+    /* position: relative; */
+}
+.NO {
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 30px;
+}
+.nossoObj{
+    width: 100%;
+    height: auto;
+}
+.nossoObj-container {
+    position: relative;
+    margin-left: 100px;
+    width: 200px;
+    height: auto;
+    /* margin-top: auto; */
+    display: inline-block;
+    bottom: 235px;
+}
+.FAQ{
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 70px;
+}
+.faq{
+    width: 100%;
+    height: auto;
+}
+.faq-container{
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    /* margin-top: auto; */
+    display: inline-block;
+}
+.QS{
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 37px;
+}
+.qs {
+    width: 100%;
+    height: auto;
+}
+.qs-container{
+    position: relative;
+    left: 1000px;
+    width: 200px;
+    height: auto;
+    /* margin-top: auto; */
+    display: inline-block;
+    bottom: 465px;
+
+}
+.SIG{
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 60px;
+}
+.siglas{
+    width: 100%;
+    height: auto;
+}
+.siglas-container{
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    top: -465px;
+}
+
+.ferramentas-container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -280px; /* Experimente um valor negativo para subir a imagem */
+    display: inline-block;
+}
+.CAL{
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 50px;
+}
+.calendario {
+    width: 100%;
+    height: auto;
+}
+.calendario-container{
+    position: relative;
+    left: 1000px;
+    width: 200px;
+    height: auto;
+    /* margin-top: auto; */
+    display: inline-block;
+    top: 10px;
+
+}
+.MAP{
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 15px;
+}
+.mapa {
+    width: 100%;
+    height: auto;
+}
+.mapa-container{
+    position: relative;
+    left: 100px;
+    width: 200px;
+    height: auto;
+    /* margin-top: auto; */
+    display: inline-block;
+    top: -235px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+li{
+    list-style-type: none;
+}
+.resp{
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 50px;
+    font-family:'Montserrat', sans-serif;
+    color: #2F9E41;
+}
+.home{
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    margin-left:600px ;
+    font-family:'Montserrat', sans-serif;;
+    
+}
+.logoifbCrop{
+    width: 10%;
+    height: auto;
+    /* position: relative; */
+    align-self: center;
+    margin-bottom: -250px;
+}
+.ali{
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.aliali{
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-left: -860px;
+    color: #2F9E41;
+    margin-top: 40px;
+    /* color: #fff;
+    stroke-width: 10px; */
+    
+}
+.mary{
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin-left: 960px;
+    margin-top: -550px;
+}
+.marymary{
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-left: 830px;
+    color: #CB2127;
+}
+.joseph{
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.jojo{
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-left: -860px;
+    color: #2F9E41;
+}
+.gab{
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin-left: 960px;
+    margin-top: -500px;
+}
+.gabgab{
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-left: 900px;
+    color: #CB2127;
+}
+.ernestoncio{
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -530px;
+}
+.ernesto{
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    color: #004AAD;
+}
+.objetivooo{
+    font-size: 1.5em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+}
+.Tobj{
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #2F9E41;
+    text-align: center;
+}
+.faquinho{
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: center;
+}
+.bvindo{
+    font-size: 1.4em;
+    font-family: Nunito, sans-serif;
+    color: #2F9E41;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.ç1{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+.insc{
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+.ç2{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+.loc{
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+.ç3{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+.curs{
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+.ç4{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+.ep{
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+.ç5{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+.pe{
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+.ç6{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+.com{
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}.ç7{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+.psico{
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+.ç8{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+.hor{
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+.verd{
+    width: 10%;
+    height: auto;
+    top: -26.25rem;
+    position: relative;
+}
+.vermei{
+    width: 10%;
+    height: auto;
+    /* bottom: 0em; */
+    right: -74em;
+    position: relative;
+}
+.OQueSignificam{
+    font-size: 2.5em;
+    position: relative;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    color: #2F9E41;
+}
+.AnNupe, .CGAE, .NEAD, .PI, .CBRA, .RA, .AVA, .PRPI, .NUGED, .NEABI, .NAPNE, .SGA{
+    font-size: 1.8em;
+    font-family: Nunito, sans-serif;
+    color: #3B7097;
+    text-align: left;
+    margin-left: 1em; 
+}
+.annupe, .cgae, .nead, .pi, .cbra, .ra, .ava, .prpi, .nuged, .neabi, .napne, .sga{
+    margin-left: 1em;
+    font-size: 1.3em;
+    text-align: left;
+    color: #2F9E41;
+}
+.emas {
+    font-size: 1.3em;
+    color: #fff;
+    line-height: 1.2; /* Ajuste conforme necessário */
+    margin-top: 2em;
+}
+
+.emas a {
+    text-decoration: none;
+    color: inherit;
+    cursor: auto; /* Isso desativa o cursor de link fora do texto */
+}
+
+.siteIF, .portal {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: block; /* Alterado para block para garantir que cada link ocupe uma linha inteira */
+    /* padding: -0.5em; */
+    position: relative; /* Adicionado para garantir que z-index funcione */
+    z-index: 1; /* Ajuste conforme necessário */
+}
+
+.siteIF {
+    margin-left: -16em; /* Ajuste conforme necessário */
+    margin-top: 5em;
+}
+
+.portal {
+    margin-left: -7.7em; /* Ajuste conforme necessário */
+    margin-top: 7em;
+    padding: 0.1;
+}
+.produção{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Garante que a altura do corpo seja igual à altura da tela */
+    margin: 0; /* Remove margens padrão do corpo */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+}
